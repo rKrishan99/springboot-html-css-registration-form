@@ -190,7 +190,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - your.email@example.com
+Your Name - rkrishan894@gmail.com
 
 Project Link: https://github.com/rKrishan99/springboot-html-css-registration-form.git
 
