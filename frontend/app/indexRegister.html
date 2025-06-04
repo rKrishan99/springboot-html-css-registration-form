@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="stylesheet" href="styels.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="signupForm">
+        <h1>Sign Up</h1>
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+
+        <label for="email">Email</label>
+        <input type="text" id="email" />
+
+        <label for="phone">Phone</label>
+        <input type="text" id="phone" />
+
+        <div class="radio-group">
+          <div class="radio-button">
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div class="radio-button">
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday" />
+
+        <label for="password">Password</label>
+        <input type="password" id="password" />
+
+        <button type="button" class="actionButton" onclick="signUpForm()">Sign Up</button>
+      </form>
+
+      <a href="indexLogin.html" class="optionButton">Signin</a>
+    </div>
+
+    <script src="scriptRegister.js"></script>
+  </body>
+</html>
